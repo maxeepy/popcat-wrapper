@@ -1,3 +1,6 @@
+import datetime, time
+import requests as rq
+
 class PopcatAPI():
   def __init__(self):
     self.BASE_URL = "https://api.popcat.xyz/"
